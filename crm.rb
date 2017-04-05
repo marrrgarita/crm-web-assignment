@@ -22,3 +22,8 @@ post '/contacts' do
   Contact.create(params[:first_name], params[:last_name], params[:emails], params[:note])
   redirect to('/contacts')
 end
+
+get '/contacts/100' do
+  @contact = Contact.find(100)
+  erb :show_contact
+end

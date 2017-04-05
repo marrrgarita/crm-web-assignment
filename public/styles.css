@@ -15,6 +15,11 @@
   text-transform: uppercase;
 }
 
+main {
+  width: 60%;
+  margin: 0 auto;
+}
+
 h1 {
   background-color: #454545;
   margin: 0px;
@@ -44,11 +49,7 @@ footer {
   text-align: center;
   padding: 10px;
 }
-
-.container-all {
-  width: 60%;
-  margin: 0 auto;
-}
+/* STYLES FOR INDEX/VIEW ALL CONTACTS */
 
 .contact-container {
   background-color: gray;

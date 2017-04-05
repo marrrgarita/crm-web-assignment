@@ -40,7 +40,7 @@ class Contact
     when "email"
       @@contacts.find { |contact| contact.email == label}
     when "note"
-      @@contacts.find { |contac| contact.email == label}
+      @@contacts.find { |contact| contact.email == label}
     else
       puts "no that is not a valid search item found"
     end
