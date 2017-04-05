@@ -10,7 +10,7 @@
 
 .main-header {
   color: white;
-  width: 100%;
+  width: 99.999%;
   text-align: center;
   text-transform: uppercase;
 }
@@ -30,11 +30,15 @@ h1 {
   background-color: darkgray;
   padding: 5px 0px;
   margin: 1px 0;
+  float: left;
+  width: 33.333%;
+  list-style: none;
 }
 
 .nav-links {
     margin: 0px;
     padding: 0px;
+    overflow: auto;
 }
 
 .nav-links a {
