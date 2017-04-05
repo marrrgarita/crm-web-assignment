@@ -6,7 +6,7 @@
   <div class="contact-container">
     <li><b><%= contact.first_name %> <%= contact.last_name %> </b>(<%= contact.email %>)</li>
   <div class="contact-options">
-    <a href="/contacts/edit">Edit</a> | <a href="/contacts/delete">Delete</a>
+    <a href="/contacts/<%= contact.id %>/edit">Edit</a> | <a href="/contacts/<%= contact.id %>/delete">Delete</a>
   </div>
   </div>
   <% end %>
