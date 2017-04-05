@@ -4,7 +4,7 @@
 <ul class="contact-list">
 <% Contact.all.each do |contact| %>
   <div class="contact-container">
-    <li><b><%= contact.first_name %> <%= contact.last_name %> </b>(<%= contact.email %>)</li>
+    <li><a href="/contacts/<%= contact.id %>"><b><%= contact.first_name %> <%= contact.last_name %></b></a>(<%= contact.email %>)</li>
   <div class="contact-options">
     <a href="/contacts/<%= contact.id %>/edit">Edit</a> | <a href="/contacts/<%= contact.id %>/delete">Delete</a>
   </div>
