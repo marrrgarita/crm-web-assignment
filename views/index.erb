@@ -1,12 +1,13 @@
+<div class="container-all">
 <h2>There are currently <b><%= Contact.all.length %></b></h2>
 
-<div class="contact-container">
-<ul>
+<ul class="contact-list">
 <% Contact.all.each do |contact| %>
-  <li><%= contact.first_name %> <%= contact.last_name %> </li>
-<div class="contact-options">
+  <div class="contact-container">
+  <li><%= contact.first_name %> <%= contact.last_name %>
   <a href="/contacts/edit">Edit</a> | <a href="/contacts/delete">Delete</a>
+  </li>
+</div>
   <% end %>
 </ul>
-
 </div>
