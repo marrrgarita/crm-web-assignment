@@ -52,9 +52,19 @@ footer {
 
 .contact-container {
   background-color: gray;
+  margin-bottom: 10px;
 }
 
 .contact-list {
   list-style: none;
   padding: 0px
+}
+
+.contact-list li {
+  padding: 15px 20px 0 20px;
+  font-size: 22px;
+}
+
+.contact-options {
+  padding: 5px 20px 15px 20px;
 }
