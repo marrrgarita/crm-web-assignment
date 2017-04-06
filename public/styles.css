@@ -36,15 +36,15 @@ h2 {
   background-color: darkgray;
   padding: 5px 0px;
   margin: 1px 0;
-  float: left;
-  width: 33.333%;
+  /*float: left;
+  width: 33.333%;*/
   list-style: none;
 }
 
 .nav-links {
     margin: 0px;
     padding: 0px;
-    overflow: auto;
+    /*overflow: auto;*/
 }
 
 .nav-links a {

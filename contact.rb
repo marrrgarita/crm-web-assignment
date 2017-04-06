@@ -4,7 +4,7 @@ class Contact
   attr_accessor :first_name, :last_name, :email, :note
   attr_reader :id
 
-  @@next_id = 100
+  @@next_id = 1
   @@contacts = []
 
 
