@@ -26,6 +26,12 @@ h1 {
   padding: 15px;
 }
 
+h2 {
+  font-family: 'Pacifico', cursive;
+  font-size: 38px;
+  margin: 20px 0;
+}
+
 .nav-links > li{
   background-color: darkgray;
   padding: 5px 0px;
@@ -79,4 +85,24 @@ footer {
 
 .contact-options {
   padding: 5px 20px 15px 20px;
+}
+
+/* STYLES FOR ADD NEW CONTACTS and EDIT*/
+
+input {
+  margin: 20px;
+}
+
+label {
+  display: block;
+  margin-left: 20px;
+}
+
+.form-container {
+  border: 1px solid black;
+  margin-bottom: 30px;
+}
+
+.edit-value {
+  display: block;
 }

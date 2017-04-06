@@ -1,4 +1,5 @@
 <h2><%= @contact.first_name %> <%= @contact.last_name %></h2>
+<p><a href="/contacts/<%= @contact.id %>/edit">Edit Contact</a></p>
 <p><strong>Email:</strong> <%= @contact.email %></p>
 <p><strong>Note:</strong></p>
 <p> <%= @contact.note %> </p>
