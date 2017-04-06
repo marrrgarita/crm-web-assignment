@@ -59,11 +59,10 @@ end
 put '/contacts/:id' do
   @contact = Contact.find(params[:id].to_i)
   if @contact
-    @contact.first_name = params[:first_name]
-    @contact.last_name = params[:last_name]
-    @contact.email = params[:email]
-    @contact.note = params[:note]
-
+    @contact.update_attribute(:first_name, params[:first_name])
+    @contact.update_attribute(:last_name, params[:last_name])
+    @contact.update_attribute(:email, params[:email])
+    @contact.update_attribute(:note, params[:note])
     redirect to ('/')
   else
     raise Sinatra::NotFound
